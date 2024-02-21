@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rayyan Invoice</title>
+    <link rel="stylesheet" type="text/css" href="./css/utility.css">
+      <link rel="stylesheet" href="./css/paper.css">
+
+    <!-- Set page size here: A5, A4, A4 landscape, letter, legal or A3 -->
+    <!-- Set also "landscape" if you need -->
+    <style>@page { size: A4 }</style>
+</head>
+<body class="A4 font-sans mx-5">
+    <div class="container sheet padding-10mm">
+    <header class="flex justify-between items-center mb-20 mt-10">
+        <img class="" src="./img/rayyan.png" height="50px">
+        <img class="absolute right-0" src="./img/header.png" width="250px">
+        <h1 class="m-0 px-5 mr-10 uppercase text-center">INVOICE</h1>
+    </header>
+    <section class="flex justify-between text-2xl">
+        <div class="flex justify-between">
+            <p class="font-bold mr-3">Invoice to:</p>
+            <p><span class="font-bold">Pride of Faith Academy</span> <br>
+                54, Ode Lemo Road, <br>
+                Sagamu, <br>
+                Ogun State</p>
+        </div>
+        <div class="flex justify-between">
+            <p>Invoice # <br>
+            Date:</p>
+            <p class="text-right">2215 <br> 29/09/2022</p>
+        </div>
+    </section>
+    <section class="bg-gray-100 py-6 mb-0 text-2xl">
+        <table class="w-full">
+            <thead>
+                <tr>
+                    <th>Item Description</th>
+                    <th>Price(₦)</th>
+                    <th>Qty</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody class="leading-10">
+                <tr class="text-center">
+                    <td>Domain Name (.com)</td>
+                    <td>9,000</td>
+                    <td>1</td>
+                    <td>&#x20a6;9,000</td>
+                </tr>
+                <tr class="text-center">
+                    <td>Web Hosting</td>
+                    <td>20,000</td>
+                    <td>1</td>
+                    <td>&#x20a6;20,000</td>
+                </tr>
+                <tr class="text-center">
+                    <td>UI / UX Designs</td>
+                    <td>15,000</td>
+                    <td>1</td>
+                    <td>&#x20a6;15,000</td>
+                </tr>
+                <tr class="text-center">
+                    <td>Website Development</td>
+                    <td>20,000</td>
+                    <td>1</td>
+                    <td>&#x20a6;20,000</td>
+                </tr>
+                <tr class="text-center">
+                    <td>Blog Integration</td>
+                    <td>15,000</td>
+                    <td>1</td>
+                    <td>&#x20a6;15,000</td>
+                </tr>
+                <tr class="text-center">
+                    <td>Edutam Basic++ (Termly)</td>
+                    <td>65,000</td>
+                    <td>1</td>
+                    <td>&#x20a6;65,000</td>
+                </tr>
+                <tr class="text-center">
+                    <td>Monthly Maintenance</td>
+                    <td>1,000</td>
+                    <td>3</td>
+                    <td><del>&#x20a6;3,000</del></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="flex justify-between mt-0">
+        <div class="w-1/2">
+            <p class="font-bold text-3xl mb-0">Payment Info:</p>
+            <article class="flex justify-around text-2xl mt-0">
+                <div>
+                    <p class="m-0 p-0">Account No:</p>
+                    <!-- <p class="m-0 p-0">A/C Name:</p> -->
+                    <p class="m-0 p-0">Bank:</p>
+                </div>
+                <div>
+                    <p class="m-0 p-0 font-bold">0824997744</p>
+                    <!-- <p class="m-0 p-0">Fawaz Ibraheem</p> -->
+                    <p class="m-0 p-0">Access Bank</p>
+                </div>
+            </article>
+        </div>
+        <div class=""></div>
+        <div class="mt-8 px-8">
+            <article class="flex justify-around mx-5 text-2xl mt-5">
+                <div>
+                    <p class="m-0 p-0">Sub Total: </p>
+                    <!-- <p class="m-0 p-0">Tax:</p> -->
+                </div>
+                <div>&nbsp;&nbsp;</div>
+                <div>
+                    <p class="m-0 p-0">&#x20a6;144,000</p>
+                    <!-- <p class="m-0 p-0">7.5%</p> -->
+                </div>
+            </article>
+            <hr class="mb-0">
+            <div class="flex justify-between mx-5 font-bold mt-0 pt-0 text-2xl">
+                <p class="mt-0 pt-0">Total: </p>
+                <p class="mt-0 pt-0 text-3xl"> &#x20a6;144,000</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex items-center mt-0 ml-12">
+        <p class="font-bold text-2xl">NB:</p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p class="text-2xl">50% of the total payment is required for the commencement of the project</p>
+    </section>
+
+    <div style="background-image: url('./img/footer.png'); background-size: cover; background-repeat: no-repeat;" class="absolute bottom-0 left-0 w-full h-48">
+        <footer class="ml-20 mt-28 flex justify-between px-8 rounded">
+        <p>❤️ Thank you!</p>
+        <p class="font-mono text-lg">0810-809-7322 <span class="px-2">|</span>rayyantech.sgm.ng</p>
+    </footer>
+    </div>
+
+    </div>
+</body>
+</html>
